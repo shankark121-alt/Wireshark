@@ -26,15 +26,37 @@ Description: This step involves identifying cyber attacks or network anomalies, 
 20 displays a [RST, ACK] (Reset flag), indicating that the connection was forcefully terminated or reset.
 
 # Practical Steps to perform wireshark practical
-Part 1: Description of Your Two Screenshots (For your Practical Report / README.md)
-Aap apni GitHub repository ki README.md file ya practical report me in descriptions ko add kar sakte hain:
-
-1. Description for Screenshot 1 (sudo wireshark / Live Packet Capture Initialization)
-Title: Launching Wireshark with Root Privileges
+Part 1:Start Kali Linux in Vmware and open the terminal and type sudo wireshark. Wireshark window is open in the command prompt type sudo wireshark.
 
 Description:
 
 This screenshot demonstrates launching Wireshark from the Kali Linux terminal using root privileges (sudo wireshark) to ensure the application 
 has administrative access to interface adapters.It shows the selection of the active network interface (eth0) to begin live packet capturing across 
 the local network.It serves as the initial setup phase where raw network packets are intercepted before applying specific display filters.
+
+<img width="1280" height="658" alt="image" src="https://github.com/user-attachments/assets/35259f34-b008-4d31-a3ff-e67b925c0450" />
+
+Part 2: 
+2. Description for Screenshot 2 (Traffic Analysis & Color-Coded Windows Server IP Traffic)
+Title: Real-Time Traffic Analysis and Color-Coded Packets for Windows Server IP (192.168.190.134)
+
+Description:
+
+This screenshot captures live network traffic passing through the interface, highlighting communication involving the Windows Server 2022.
+
+** Green / Teal Rows:** Represent active and successful TCP data transmission, HTTP traffic, and Acknowledgments (ACK) packets flowing between the host
+  and external servers.
+** Yellow Rows:** Indicate connection setup flags (such as `[SYN]`, `[SYN, ACK]`) or specific handshake markers during the initial TCP connection phase.
+** Grey Rows:** Highlight secure TLS/SSL encrypted sessions (such as `Client Hello`, `Server Hello`, and certificate exchanges) or connection teardown packets 
+   (`[FIN, ACK]`).
+** Red Rows:** Indicate TCP Reset (`[RST, ACK]`) packets showing where connections were abruptly terminated, aborted, or reset by the system or application.
+
+<img width="1278" height="672" alt="image" src="https://github.com/user-attachments/assets/8e1d879f-9ee7-4030-9d78-e3c82c676a97" />
+<img width="1277" height="654" alt="image" src="https://github.com/user-attachments/assets/b2ee196a-f5f3-4232-b7e6-9c70c14d86bc" />
+<img width="1280" height="663" alt="image" src="https://github.com/user-attachments/assets/cce48cb9-ddd8-45b5-9612-68cf28d9cc7b" />
+
+
+
+
+
 
