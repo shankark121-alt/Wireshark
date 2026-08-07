@@ -46,9 +46,12 @@ This screenshot captures live network traffic passing through the interface, hig
 
 ** Green / Teal Rows:** Represent active and successful TCP data transmission, HTTP traffic, and Acknowledgments (ACK) packets flowing between the host
   and external servers.
+  
 ** Yellow Rows:** Indicate connection setup flags (such as `[SYN]`, `[SYN, ACK]`) or specific handshake markers during the initial TCP connection phase.
+
 ** Grey Rows:** Highlight secure TLS/SSL encrypted sessions (such as `Client Hello`, `Server Hello`, and certificate exchanges) or connection teardown packets 
    (`[FIN, ACK]`).
+   
 ** Red Rows:** Indicate TCP Reset (`[RST, ACK]`) packets showing where connections were abruptly terminated, aborted, or reset by the system or application.
 
 <img width="1278" height="672" alt="image" src="https://github.com/user-attachments/assets/8e1d879f-9ee7-4030-9d78-e3c82c676a97" />
