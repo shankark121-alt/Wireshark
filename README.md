@@ -26,7 +26,7 @@ Description: This step involves identifying cyber attacks or network anomalies, 
 20 displays a [RST, ACK] (Reset flag), indicating that the connection was forcefully terminated or reset.
 
 # Practical Steps to perform wireshark practical
-Part 1:Start Kali Linux in Vmware and open the terminal and type sudo wireshark. Wireshark window is open in the command prompt type sudo wireshark.
+Part 1:Start Kali Linux in Vmware and open the terminal then type sudo wireshark. Wireshark window is open.
 
 Description:
 
